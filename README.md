@@ -1,29 +1,42 @@
 # Carbon Footprint Estimator
 
-A Python-based web application that estimates travel-related carbon dioxide (CO₂) emissions based on transportation type and travel distance. The project is built using Streamlit and follows a modular structure with separate business logic and user interface components.
+## Overview
 
-## Project Overview
+Carbon Footprint Estimator is a Python-based web application developed to calculate travel-related carbon dioxide (CO₂) emissions based on different modes of transportation and travel distance. The application is designed to help users understand the environmental impact of daily travel activities and encourage more sustainable transportation choices.
 
-This application helps users calculate and understand the environmental impact of their travel choices. Users can select a mode of transport, enter travel distance, and instantly view estimated carbon emissions along with practical reduction suggestions.
+The project is built using Streamlit and follows a modular architecture where the business logic and user interface are maintained separately for better scalability, readability, and maintainability.
 
-The project demonstrates clean application design, reusable Python functions, input validation, and real-time data processing.
+---
 
-## Features
+## Project Objective
 
-- Carbon emission calculation based on transport type
-- Real-time emission estimates
-- Modular Python architecture
-- Input validation and error handling
+The primary objective of this project is to provide a simple and interactive platform that estimates carbon emissions generated through transportation. The application allows users to compare the environmental impact of different transport methods and promotes awareness about sustainable travel practices.
+
+---
+
+## Key Features
+
+- Calculates carbon emissions based on travel distance and transport type
+- Supports multiple transportation categories
+- Real-time emission estimation
+- User-friendly Streamlit interface
+- Modular Python code structure
+- Input validation and exception handling
 - Dynamic eco-friendly recommendations
-- Interactive Streamlit dashboard
-- Unit testing support
+- Automated backend testing support
+
+---
 
 ## Technologies Used
 
-- Python
-- Streamlit
-- Pandas
-- Custom CSS
+| Technology | Purpose |
+|------------|---------|
+| Python | Core programming language |
+| Streamlit | Interactive web application framework |
+| Pandas | Data handling and processing |
+| Custom CSS | User interface styling |
+
+---
 
 ## Project Structure
 
